@@ -36,5 +36,5 @@ export const ReducerExample: React.FC = () => {
        +
       </button>
     </div>
-  )
+  );
 }
