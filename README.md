@@ -25,6 +25,41 @@
 
 <br />
 
+## 👨‍💻 typesciprtreact.json
+- 파일 -> 기본 설정 -> 사용자 코드 조각 -> typescript.json 검색
+```json
+  {
+    ...
+
+    "TypeScript React Function Component": {
+      "prefix": "rh",
+      "body": [
+        "import React from 'react';",
+        "",
+        "interface Props {",
+        "",
+        "}",
+        "",
+        "const r$1: React.FC<Props> = () => {",
+        "\treturn (",
+        "\t\t<div>",
+        "",
+        "\t\t</div>",
+        "\t);",
+        "}",
+        "",
+        "export default $1;"
+      ],
+      "description": "TypeScript React Function Component"
+    }
+  }
+```
+
+<br />
+
+## 👨‍💻 React.FC
+
+
 ## 📈 
 ### 🔍
 ## 👨‍💻

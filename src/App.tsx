@@ -1,14 +1,18 @@
 import React from 'react';
-import TextField from './components/TextField';
+import Counter from './components/Counter';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <div>
-      <TextField 
-        text="Hello! TypeScript and React"
-        person={{ firstName: "Jeon", lastName: "MinJae" }} 
-      />
+      <Counter>
+        {({ count, setCount }) => (
+          <div>
+            {count}
+            <button onClick={() => setCount(count + 1)}>+</button>
+          </div>
+        )}
+      </Counter>
     </div>
   );
 }
